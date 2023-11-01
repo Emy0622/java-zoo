@@ -26,6 +26,7 @@ public class Mamiferos extends Animais{
         }
     }
 
+
     public void adicionarMamifero(Mamiferos mamifero) {
         listaMamiferos.add(mamifero);
     }
@@ -34,7 +35,7 @@ public class Mamiferos extends Animais{
 
         System.out.println("/-/-/-/-/-/  Cadastro Mamifero  /-/-/-/-/-/");
         System.out.print("Informe o que animal este mamífero é: ");
-        animal = scanner.nextLine();
+        especie = scanner.nextLine();
         System.out.print("Informe o nome do mamífero: : ");
         nome = scanner.nextLine();
         System.out.print("Informe o sexo do mamífero: : ");
@@ -45,6 +46,7 @@ public class Mamiferos extends Animais{
         RGA = scanner.nextInt();
         scanner.nextLine();
         System.out.println("/-/-/-/-/  Cadastro Finalizado /-/-/-/-/-/");
+
 
     }
 }

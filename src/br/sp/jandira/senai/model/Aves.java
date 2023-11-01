@@ -34,7 +34,7 @@ public class Aves extends Animais{
 
         System.out.println("/-/-/-/-/-/  Cadastro Aves  /-/-/-/-/-/");
         System.out.print("Informe o que animal está ave é: ");
-        animal = scanner.nextLine();
+        especie = scanner.nextLine();
         System.out.print("Informe o nome da ave: ");
         nome = scanner.nextLine();
         System.out.print("Informe o sexo da ave: ");
