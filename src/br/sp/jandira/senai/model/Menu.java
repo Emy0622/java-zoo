@@ -38,14 +38,14 @@ public class Menu {
 
                 case 1:
 
-                    System.out.println("");
+                    System.out.println(" ");
                     System.out.println("Que espécie você deseja cadastrar?");
                     System.out.println("[1- Mamífero]");
                     System.out.println("[2- Ave]");
                     System.out.println("[3- Réptil]");
                     repostaEspecie = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.println("");
+                    System.out.println(" ");
 
                     switch (repostaEspecie) {
 
@@ -76,14 +76,14 @@ public class Menu {
                     break;
 
                 case 3:
-                    System.out.println("");
+                    System.out.println(" ");
                     System.out.println("Que alojamento você deseja exibir?");
                     System.out.println("[1- Mamífero]");
                     System.out.println("[2- Ave]");
                     System.out.println("[3- Réptil]");
                     repostaAlojamento = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.println("");
+                    System.out.println(" ");
 
                     switch (repostaAlojamento) {
 

@@ -219,7 +219,7 @@ import java.util.Scanner;
         }
 
 
-        public void adicionarAnimal(Repteis novoReptil) {
+        public void adicionarAnimal(Mamiferos novoReptil) {
         }
     }
 
