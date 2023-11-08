@@ -218,8 +218,5 @@ import java.util.Scanner;
             return RGA;
         }
 
-
-        public void adicionarAnimal(Mamiferos novoReptil) {
-        }
     }
 
